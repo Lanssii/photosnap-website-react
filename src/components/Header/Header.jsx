@@ -1,0 +1,35 @@
+import "./Header.css";
+import logo from "../../assets/main-logo.png";
+
+function Header() {
+  return (
+    <>
+      <header>
+        <div className="header-container container">
+          <div className="main-logo">
+            <img src={logo} alt="main-logo" />
+            <h1>PHOTOSNAP</h1>
+          </div>
+
+          <nav>
+            <ul>
+              <li>
+                <a href="/stories">STORIES</a>
+              </li>
+              <li>
+                <a href="/features">FEATURES</a>
+              </li>
+              <li>
+                <a href="/pricing">PRICING</a>
+              </li>
+            </ul>
+          </nav>
+
+          <button className="invite-button">GET AN INVITE</button>
+        </div>
+      </header>
+    </>
+  );
+}
+
+export default Header;

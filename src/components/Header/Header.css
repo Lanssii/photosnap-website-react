@@ -1,0 +1,35 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: #000000;
+}
+
+.main-logo {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+nav ul {
+  display: flex;
+  gap: 36px;
+  list-style: none;
+  font-weight: bold;
+}
+
+.invite-button {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+.invite-button:hover {
+  background-color: #333;
+}
