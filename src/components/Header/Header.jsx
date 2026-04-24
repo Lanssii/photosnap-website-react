@@ -6,10 +6,12 @@ function Header() {
     <>
       <header>
         <div className="header-container container">
-          <div className="main-logo">
-            <img src={logo} alt="main-logo" />
-            <h1>PHOTOSNAP</h1>
-          </div>
+          <a href="/home">
+            <div className="main-logo">
+              <img src={logo} alt="main-logo" />
+              <h1>PHOTOSNAP</h1>
+            </div>
+          </a>
 
           <nav>
             <ul>
