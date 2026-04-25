@@ -19,7 +19,10 @@ function HeroSection(props) {
               >
                 {props.linkText}
               </a>
-              <img src={props.arrowImg} alt="arrow" />
+              <div
+                className="arrow"
+                style={{ "--arrow-color": props.arrowBackgroundColor }}
+              ></div>
             </div>
           </div>
         </div>
