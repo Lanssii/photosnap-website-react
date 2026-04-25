@@ -9,7 +9,6 @@
 
 .left-section {
   flex: 1;
-  background-color: #000;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -18,7 +17,7 @@
 }
 
 .left-section p {
-  color: #dfdfdf;
+  color: #979797;
   line-height: 1.5;
 }
 
@@ -30,6 +29,7 @@
   width: 41px;
 }
 .invite-way {
+  font-weight: bold;
   margin-top: 48px;
 }
 
@@ -37,7 +37,6 @@
   text-decoration: underline;
 }
 .invite-link {
-  color: #ffffff;
   margin-right: 17px;
 }
 

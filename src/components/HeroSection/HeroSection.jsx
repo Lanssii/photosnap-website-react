@@ -4,12 +4,19 @@ function HeroSection(props) {
   return (
     <>
       <section className={`intro-section ${props.reverse ? "reverse" : ""}`}>
-        <div className="left-section">
+        <div
+          className="left-section"
+          style={{ backgroundColor: props.backgroundColor }}
+        >
           <div className="left-section-info">
-            <h1>{props.title}</h1>
+            <h1 style={{ color: props.titleColor }}>{props.title}</h1>
             <p>{props.para}</p>
             <div className="invite-way">
-              <a href="/invite" className="invite-link">
+              <a
+                href="/invite"
+                className="invite-link"
+                style={{ color: props.linkColor }}
+              >
                 {props.linkText}
               </a>
               <img src={props.arrowImg} alt="arrow" />
