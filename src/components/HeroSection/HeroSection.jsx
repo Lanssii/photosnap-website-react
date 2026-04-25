@@ -1,6 +1,4 @@
 import "./HeroSection.css";
-import arrow from "../../assets/arrow.png";
-import sectionImage from "../../assets/section-image1.png";
 
 function HeroSection(props) {
   return (
@@ -14,12 +12,12 @@ function HeroSection(props) {
               <a href="/invite" className="invite-link">
                 {props.linkText}
               </a>
-              <img src={arrow} alt="arrow" />
+              <img src={props.arrowImg} alt="arrow" />
             </div>
           </div>
         </div>
         <div className="right-section">
-          <img src={sectionImage} alt="section-image" />
+          <img src={props.sectionImageOne} alt="section-image" />
         </div>
       </section>
     </>

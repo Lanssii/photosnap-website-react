@@ -1,4 +1,6 @@
 import HeroSection from "../components/HeroSection/HeroSection.jsx";
+import arrowImage from "../assets/arrow.png";
+import sectionImageOne from "../assets/section-image1.png";
 
 function Home() {
   return (
@@ -10,6 +12,8 @@ function Home() {
               We make it easy to share photos, tell stories and connect with
               others."
           linkText="GET AN INVITE"
+          arrowImg={arrowImage}
+          sectionImageOne={sectionImageOne}
         />
         {/* <HeroSection /> */}
       </main>
