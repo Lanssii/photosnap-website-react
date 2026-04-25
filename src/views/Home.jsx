@@ -1,7 +1,7 @@
 import HeroSection from "../components/HeroSection/HeroSection.jsx";
-import sectionImageOne from "../assets/section-image1.png";
-import sectionImageTwo from "../assets/section-image2.png";
-import sectionImageThree from "../assets/section-image3.png";
+import sectionImageOne from "../assets/hero-section-image1.png";
+import sectionImageTwo from "../assets/hero-section-image2.png";
+import sectionImageThree from "../assets/hero-section-image3.png";
 
 function Home() {
   return (

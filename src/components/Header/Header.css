@@ -41,3 +41,6 @@ nav ul li a:hover {
 .invite-button:hover {
   background-color: #979797;
 }
+.main-logo img {
+  margin-top: 2px;
+}

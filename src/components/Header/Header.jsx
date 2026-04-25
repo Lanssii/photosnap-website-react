@@ -9,7 +9,7 @@ function Header() {
           <a href="/home">
             <div className="main-logo">
               <img src={logo} alt="main-logo" />
-              <h1>PHOTOSNAP</h1>
+              <h2>PHOTOSNAP</h2>
             </div>
           </a>
 
