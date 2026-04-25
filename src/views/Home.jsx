@@ -5,6 +5,7 @@ function Home() {
     <>
       <main>
         <HeroSection />
+        <HeroSection />
       </main>
     </>
   );
