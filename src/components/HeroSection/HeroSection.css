@@ -3,6 +3,9 @@
   width: 100%;
   min-height: 650px;
 }
+.intro-section.reverse {
+  flex-direction: row-reverse;
+}
 
 .left-section {
   flex: 1;

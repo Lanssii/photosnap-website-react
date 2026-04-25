@@ -3,7 +3,7 @@ import "./HeroSection.css";
 function HeroSection(props) {
   return (
     <>
-      <section className="intro-section">
+      <section className={`intro-section ${props.reverse ? "reverse" : ""}`}>
         <div className="left-section">
           <div className="left-section-info">
             <h1>{props.title}</h1>
