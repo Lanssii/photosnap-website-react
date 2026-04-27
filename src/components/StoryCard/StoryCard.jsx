@@ -1,17 +1,16 @@
 import "./StoryCard.css";
-import "../../assets/story-card1.png";
 
-function StoryCard(props) {
+function StoryCard({ image, title, author, linkText }) {
   return (
     <>
-      <div className="story-card">
+      <div className="story-card" style={{ backgroundImage: `url(${image})` }}>
         <div className="story-info">
-          <h4>{props.title}</h4>
-          <p>{props.author}</p>
+          <h4>{title}</h4>
+          <p>{author}</p>
           <hr />
           <div className="invite-way">
             <a href="/invite" className="read-link">
-              {props.linkText}
+              {linkText}
             </a>
             <div className="arrow"></div>
           </div>
