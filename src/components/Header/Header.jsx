@@ -1,33 +1,32 @@
 import "./Header.css";
-import logo from "../../assets/main-logo.png";
 
-function Header() {
+function Header(props) {
   return (
     <>
       <header>
         <div className="header-container container">
           <a href="/home">
             <div className="main-logo">
-              <img src={logo} alt="main-logo" />
-              <h2>PHOTOSNAP</h2>
+              <img src={props.imgLogo} alt="main-logo" />
+              <h2>{props.title}</h2>
             </div>
           </a>
 
           <nav>
             <ul>
               <li>
-                <a href="/stories">STORIES</a>
+                <a href="/stories">{props.navText1}</a>
               </li>
               <li>
-                <a href="/features">FEATURES</a>
+                <a href="/features">{props.navText2}</a>
               </li>
               <li>
-                <a href="/pricing">PRICING</a>
+                <a href="/pricing">{props.navText3}</a>
               </li>
             </ul>
           </nav>
 
-          <button className="invite-button">GET AN INVITE</button>
+          <button className="invite-button">{props.inviteBtn}</button>
         </div>
       </header>
     </>

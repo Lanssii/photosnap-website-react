@@ -20,7 +20,7 @@ function Home() {
           arrowBackgroundColor="#ffffff"
         />
         <HeroSection
-          title="BEAUTIFULL STORIES EVERY TIME"
+          title="BEAUTIFUL STORIES EVERY TIME"
           para="We provide design templates to ensure your stories look terrific. Easily add photos, text, embed maps and media from other networks. Then share your story with everyone."
           linkText="VIEW THE STORIES"
           sectionImageOne={sectionImageTwo}
@@ -30,7 +30,7 @@ function Home() {
           reverse={true}
         />
         <HeroSection
-          title="DESIGNED FOR EVERYONEE"
+          title="DESIGNED FOR EVERYONE"
           para="Photosnap can help you create stories that resonate with your audience.  Our tool is designed for photographers of all levels, brands, businesses you name it."
           linkText="VIEW THE STORIES"
           sectionImageOne={sectionImageThree}
