@@ -3,8 +3,10 @@ function InfoCard({ image, title, para }) {
   return (
     <>
       <div className="info-card">
-        <img src={image} alt="info-icon" />
-        <h1>{title}</h1>
+        <div className="image-container">
+          <img src={image} alt="info-icon" />
+        </div>
+        <h3>{title}</h3>
         <p>{para}</p>
       </div>
     </>

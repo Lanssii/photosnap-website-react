@@ -1,0 +1,24 @@
+.info-card {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.info-card h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.info-card p {
+  line-height: 1.5;
+}
+
+.image-container {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: contain;
+}

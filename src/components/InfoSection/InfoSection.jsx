@@ -8,7 +8,7 @@ import InfoCard3 from "../../assets/Info-card-icon3.png";
 function InfoSection() {
   return (
     <>
-      <div className="info-cards">
+      <section className="info-cards">
         <InfoCard
           image={InfoCard1}
           title="100% Responsive"
@@ -21,10 +21,10 @@ function InfoSection() {
         />
         <InfoCard
           image={InfoCard3}
-          title="No matter which the device you’re on, our site is fully responsive and stories look beautiful on any screen."
-          para="Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more."
+          title="Available to Embed"
+          para="Embed Tweets, Facebook posts, Instagram media, Vimeo or YouTube videos, Google Maps, and more. "
         />
-      </div>
+      </section>
     </>
   );
 }
