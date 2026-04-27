@@ -3,6 +3,8 @@ import sectionImageOne from "../assets/hero-section-image1.png";
 import sectionImageTwo from "../assets/hero-section-image2.png";
 import sectionImageThree from "../assets/hero-section-image3.png";
 
+import StorySection from "../components/StorySection/StorySection.jsx";
+
 function Home() {
   return (
     <>
@@ -38,6 +40,7 @@ function Home() {
           linkColor="#000000"
           arrowBackgroundColor="#000000"
         />
+        <StorySection />
       </main>
     </>
   );
