@@ -1,4 +1,5 @@
 import "./InfoCard.css";
+
 function InfoCard({ image, title, para }) {
   return (
     <>

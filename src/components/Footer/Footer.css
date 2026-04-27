@@ -1,0 +1,17 @@
+footer {
+  background-color: #000000;
+  color: #ffffff;
+}
+footer h1 {
+  margin: 0;
+}
+
+.footer-container {
+  padding: 65px 160px;
+}
+
+.footer-icons {
+  margin-top: 80px;
+  display: flex;
+  gap: 14px;
+}
