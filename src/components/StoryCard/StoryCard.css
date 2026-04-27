@@ -1,0 +1,76 @@
+.story-card {
+  position: relative;
+  height: 500px;
+
+  background-image: url("../../assets/story-card1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.story-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.3);
+
+  z-index: 1;
+}
+
+.story-info {
+  position: relative;
+  z-index: 2;
+
+  color: #ffffff;
+  padding: 40px;
+}
+
+.story-card h4 {
+  font-size: 18px;
+  margin: 0;
+}
+.story-card p {
+  margin: 0;
+  margin-top: 4px;
+}
+
+.story-info {
+  color: #ffffff;
+  padding: 40px;
+}
+
+.story-section .invite-way {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.story-section .invite-way a {
+  color: #ffffff;
+}
+.story-section .invite-way a:hover {
+  text-decoration: underline;
+}
+.story-section .arrow {
+  position: relative;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.story-section .arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg);
+}

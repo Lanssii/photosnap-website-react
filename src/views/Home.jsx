@@ -40,6 +40,7 @@ function Home() {
           linkColor="#000000"
           arrowBackgroundColor="#000000"
         />
+
         <StorySection />
       </main>
     </>
