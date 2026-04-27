@@ -1,4 +1,5 @@
 .story-card {
+  position: relative;
   width: 100%;
   max-width: 360px;
   height: 500px;
@@ -7,15 +8,37 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: brightness(90%);
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
 
+.story-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.3);
+
+  z-index: 1;
+}
+
+.story-info {
+  position: relative;
+  z-index: 2;
+
+  color: #ffffff;
+  padding: 40px;
+}
+
 .story-card h4 {
   font-size: 18px;
+  margin: 0;
+}
+.story-card p {
+  margin: 0;
+  margin-top: 4px;
 }
 
 .story-info {
