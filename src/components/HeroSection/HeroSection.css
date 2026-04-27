@@ -28,14 +28,14 @@
 .left-section img {
   width: 41px;
 }
-.invite-way {
+.left-section-info .invite-way {
   display: flex;
   align-items: center;
   font-weight: bold;
   margin-top: 48px;
 }
 
-.invite-way a:hover {
+.left-section-info .invite-way a:hover {
   text-decoration: underline;
 }
 
@@ -50,7 +50,7 @@
   display: block;
 }
 
-.arrow {
+.left-section-info .arrow {
   position: relative;
   width: 50px;
   height: 2px;
@@ -58,7 +58,7 @@
   margin: 20px;
 }
 
-.arrow::after {
+.left-section-info .arrow::after {
   content: "";
   position: absolute;
   right: 0;
@@ -82,7 +82,7 @@
   .left-section p {
     font-size: 15px;
   }
-  .invite-way a {
+  .left-section-info .invite-way a {
     font-size: 15px;
   }
 }
