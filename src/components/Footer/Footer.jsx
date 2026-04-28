@@ -1,4 +1,5 @@
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 import FacebookIcon from "../../assets/facebook-icon.png";
 import YoutubeIcon from "../../assets/youtube-icon.png";
@@ -29,16 +30,16 @@ function Footer(props) {
               <nav className="footer-nav">
                 <ul>
                   <li>
-                    <a href="/home">{props.navText1}</a>
+                    <Link to="/">{props.navText1}</Link>
                   </li>
                   <li>
-                    <a href="/stories">{props.navText2}</a>
+                    <Link to="/stories">{props.navText2}</Link>
                   </li>
                   <li>
-                    <a href="/features">{props.navText3}</a>
+                    <Link to="/features">{props.navText3}</Link>
                   </li>
                   <li>
-                    <a href="/pricing">{props.navText4}</a>
+                    <Link to="/pricing">{props.navText4}</Link>
                   </li>
                 </ul>
               </nav>
