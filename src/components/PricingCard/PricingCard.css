@@ -1,16 +1,51 @@
 .pricing-card {
-  background: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  background-color: #f5f5f5;
   padding: 40px;
   text-align: center;
+  width: 100%;
+  max-width: 350px;
+
+  transition: 0.3s ease;
 }
 
 .pricing-card.active {
-  background: black;
-  color: white;
+  background-color: #000000;
+  color: #ffffff;
+  transform: scale(1.05);
+}
+.pricing-card:hover {
+  background-color: #000000;
+  color: #ffffff;
   transform: scale(1.05);
 }
 
 .pricing-card .price {
   font-weight: bold;
   font-size: 40px;
+  margin: 5px;
+}
+
+.pricing-card p {
+  line-height: 1.5;
+  color: #979797;
+}
+
+.pricing-card button {
+  width: 100%;
+  padding: 12px 40px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+
+.pricing-card.active button {
+  background-color: #ffffff;
+  color: #000000;
+}
+.pricing-card:hover button {
+  background-color: #ffffff;
+  color: #000000;
 }
