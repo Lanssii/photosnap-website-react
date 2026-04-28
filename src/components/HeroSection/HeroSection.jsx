@@ -14,6 +14,10 @@ function HeroSection(props) {
                 <span className="top-text">{props.topText}</span>
               )}
               <h1>{props.title}</h1>
+              <div className="date-author">
+                <p>{props.date}</p>
+                <p className="author">{props.author}</p>
+              </div>
               <p>{props.para}</p>
 
               <div className="invite-way">

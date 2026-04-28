@@ -90,15 +90,15 @@
   position: absolute;
   inset: 0;
 
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.1);
 }
 
 .overlay-content {
   position: relative;
   z-index: 2;
 
-  color: white;
-  max-width: 400px;
+  color: #ffffff;
+  max-width: 450px;
   margin-left: 10%;
 }
 .top-text {
@@ -106,6 +106,57 @@
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #ffffff;
+  font-weight: bold;
+}
+
+.overlay-hero p {
+  line-height: 1.6;
+  color: #979797;
+  font-size: 17px;
+}
+
+.overlay-hero h1 {
+  font-size: 40px;
+}
+
+.date-author {
+  display: flex;
+  gap: 15px;
+}
+
+.overlay-hero .author {
+  color: #ffffff;
+}
+
+.overlay-hero .arrow {
+  position: relative;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+.overlay-hero .arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+.overlay-hero .invite-way {
+  display: flex;
+  align-items: center;
+}
+.overlay-hero .invite-way a {
+  color: #ffffff;
+}
+.overlay-hero .invite-way a:hover {
+  text-decoration: underline;
 }
 
 /* MEDIA QUARIES */
