@@ -1,9 +1,71 @@
 .pricing-section {
   padding: 120px 0px;
 }
-
 .pricing-cards {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   gap: 30px;
+}
+.price-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* switch button */
+.price-button {
+  margin: 0 auto;
+}
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.label {
+  color: #979797;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.label.active {
+  color: #000000;
+}
+
+/* SWITCH */
+.switch {
+  position: relative;
+  width: 64px;
+  height: 32px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  inset: 0;
+  background-color: #ddd;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.slider::before {
+  content: "";
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 4px;
+  top: 4px;
+  background: #000000;
+  border-radius: 50%;
+  transition: 0.3s;
+}
+
+.switch input:checked + .slider::before {
+  transform: translateX(30px);
 }
