@@ -15,7 +15,7 @@ function Footer(props) {
             <div>
               <div className="main-logo">
                 <img src={props.imgLogo} alt="main-logo" />
-                <h2>PHOTOSNAP</h2>
+                <h2>{props.title}</h2>
               </div>
               <div className="footer-icons">
                 <img src={FacebookIcon} alt="facebook-icon" />
@@ -29,16 +29,16 @@ function Footer(props) {
               <nav className="footer-nav">
                 <ul>
                   <li>
-                    <a href="/home">HOME</a>
+                    <a href="/home">{props.navText1}</a>
                   </li>
                   <li>
-                    <a href="/stories">STORIES</a>
+                    <a href="/stories">{props.navText2}</a>
                   </li>
                   <li>
-                    <a href="/features">FEATURES</a>
+                    <a href="/features">{props.navText3}</a>
                   </li>
                   <li>
-                    <a href="/pricing">PRICING</a>
+                    <a href="/pricing">{props.navText4}</a>
                   </li>
                 </ul>
               </nav>
@@ -47,13 +47,11 @@ function Footer(props) {
           <div className="footer-right-section">
             <div className="invite-way">
               <a href="/invite" className="invite-link">
-                GET AN INVITE
+                {props.inviteBtn}
               </a>
               <div className="arrow"></div>
             </div>
-            <p className="footer-copyright">
-              Copyright 2019. All Rights Reserved
-            </p>
+            <p className="footer-copyright">{props.copyright}</p>
           </div>
         </div>
       </footer>

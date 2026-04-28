@@ -17,7 +17,16 @@ function App() {
         imgLogo={logo}
       />
       <Home />
-      <Footer imgLogo={logo} />
+      <Footer
+        title="PHOTOSNAP"
+        navText1="HOME"
+        navText2="STORIES"
+        navText3="FEATURES"
+        navText4="PRICING"
+        inviteBtn="GET AN INVITE"
+        copyright="  Copyright 2019. All Rights Reserved"
+        imgLogo={logo}
+      />
     </>
   );
 }
