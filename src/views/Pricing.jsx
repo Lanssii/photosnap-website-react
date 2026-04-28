@@ -1,4 +1,5 @@
 import HeroSection from "../components/HeroSection/HeroSection.jsx";
+import PricingSection from "../components/PricingSection/PricingSection.jsx";
 import pricingImage from "../assets/pricing-hero.png";
 
 function Pricing() {
@@ -10,6 +11,7 @@ function Pricing() {
         sectionImageOne={pricingImage}
         backgroundColor="#000"
       />
+      <PricingSection />
     </main>
   );
 }
