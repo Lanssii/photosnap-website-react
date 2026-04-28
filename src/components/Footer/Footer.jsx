@@ -6,25 +6,35 @@ import TwitterIcon from "../../assets/twitter-icon.png";
 import PinterestIcon from "../../assets/pinterest-icon.png";
 import InstagramIcon from "../../assets/instagram-icon.png";
 
-function Footer() {
+function Footer(props) {
   return (
     <>
       <footer>
         <div className="footer-container">
           <div className="footer-left-section">
             <div>
-              <h1>Photosnap</h1>
+              <div className="main-logo">
+                <img src={props.imgLogo} alt="main-logo" />
+                <h2>PHOTOSNAP</h2>
+              </div>
               <div className="footer-icons">
-                <img src={FacebookIcon} alt="" />
-                <img src={YoutubeIcon} alt="" />
-                <img src={TwitterIcon} alt="" />
-                <img src={PinterestIcon} alt="" />
-                <img src={InstagramIcon} alt="" />
+                <img src={FacebookIcon} alt="facebook-icon" />
+                <img src={YoutubeIcon} alt="youtube-icon" />
+                <img src={TwitterIcon} alt="twitter-icon" />
+                <img src={PinterestIcon} alt="pinterest-icon" />
+                <img src={InstagramIcon} alt="instagram-icon" />
               </div>
             </div>
             <div></div>
           </div>
-          <div className="footer-right-section"></div>
+          <div className="footer-right-section">
+            <div className="invite-way">
+              <a href="/invite" className="invite-link">
+                GET AN INVITE
+              </a>
+              <div className="arrow"></div>
+            </div>
+          </div>
         </div>
       </footer>
     </>

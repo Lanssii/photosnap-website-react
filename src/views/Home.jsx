@@ -5,7 +5,6 @@ import sectionImageThree from "../assets/hero-section-image3.png";
 
 import StorySection from "../components/StorySection/StorySection.jsx";
 import InfoSection from "../components/InfoSection/InfoSection.jsx";
-import Footer from "../components/Footer/Footer.jsx";
 
 function Home() {
   return (
@@ -45,7 +44,6 @@ function Home() {
 
         <StorySection />
         <InfoSection />
-        <Footer />
       </main>
     </>
   );

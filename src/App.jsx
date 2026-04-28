@@ -3,6 +3,8 @@ import Header from "./components/Header/Header.jsx";
 import Home from "./views/Home.jsx";
 import logo from "./assets/main-logo.png";
 
+import Footer from "./components/Footer/Footer.jsx";
+
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
         imgLogo={logo}
       />
       <Home />
+      <Footer imgLogo={logo} />
     </>
   );
 }

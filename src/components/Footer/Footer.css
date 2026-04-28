@@ -8,10 +8,44 @@ footer h1 {
 
 .footer-container {
   padding: 65px 160px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-icons {
   margin-top: 80px;
   display: flex;
   gap: 14px;
+}
+
+footer .arrow {
+  position: relative;
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  margin: 20px;
+}
+
+footer .arrow::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-top: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  transform: rotate(45deg);
+}
+
+footer .invite-way {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .invite-way a {
+  color: #ffffff;
+}
+footer .invite-way a:hover {
+  text-decoration: underline;
 }
