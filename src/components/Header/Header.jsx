@@ -1,4 +1,5 @@
 import "./Header.css";
+import { Link } from "react-router-dom";
 
 function Header(props) {
   return (
@@ -15,13 +16,13 @@ function Header(props) {
           <nav>
             <ul>
               <li>
-                <a href="/stories">{props.navText1}</a>
+                <Link to="/stories">{props.navText1}</Link>
               </li>
               <li>
-                <a href="/features">{props.navText2}</a>
+                <Link to="/features">{props.navText2}</Link>
               </li>
               <li>
-                <a href="/pricing">{props.navText3}</a>
+                <Link to="/pricing">{props.navText3}</Link>
               </li>
             </ul>
           </nav>
