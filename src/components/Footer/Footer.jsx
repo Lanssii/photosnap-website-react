@@ -25,7 +25,24 @@ function Footer(props) {
                 <img src={InstagramIcon} alt="instagram-icon" />
               </div>
             </div>
-            <div></div>
+            <div>
+              <nav className="footer-nav">
+                <ul>
+                  <li>
+                    <a href="/home">HOME</a>
+                  </li>
+                  <li>
+                    <a href="/stories">STORIES</a>
+                  </li>
+                  <li>
+                    <a href="/features">FEATURES</a>
+                  </li>
+                  <li>
+                    <a href="/pricing">PRICING</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
           </div>
           <div className="footer-right-section">
             <div className="invite-way">
@@ -34,6 +51,9 @@ function Footer(props) {
               </a>
               <div className="arrow"></div>
             </div>
+            <p className="footer-copyright">
+              Copyright 2019. All Rights Reserved
+            </p>
           </div>
         </div>
       </footer>

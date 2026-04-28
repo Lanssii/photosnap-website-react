@@ -49,3 +49,26 @@ footer .invite-way a {
 footer .invite-way a:hover {
   text-decoration: underline;
 }
+
+.footer-nav ul {
+  display: flex;
+  flex-direction: column;
+  font-weight: 400;
+}
+.footer-nav a {
+  color: #ffffff;
+}
+
+.footer-left-section {
+  display: flex;
+  gap: 100px;
+}
+.footer-right-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer-copyright {
+  color: #979797;
+}
