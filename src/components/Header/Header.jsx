@@ -6,12 +6,12 @@ function Header(props) {
     <>
       <header>
         <div className="header-container container">
-          <a href="/home">
+          <Link to="/">
             <div className="main-logo">
               <img src={props.imgLogo} alt="main-logo" />
               <h2>{props.title}</h2>
             </div>
-          </a>
+          </Link>
 
           <nav>
             <ul>

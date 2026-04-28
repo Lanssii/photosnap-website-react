@@ -36,7 +36,7 @@ function App() {
           navText3="FEATURES"
           navText4="PRICING"
           inviteBtn="GET AN INVITE"
-          copyright="  Copyright 2019. All Rights Reserved"
+          copyright="Copyright 2019. All Rights Reserved"
           imgLogo={logo}
         />
       </BrowserRouter>

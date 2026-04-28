@@ -70,6 +70,44 @@
   transform: rotate(45deg);
 }
 
+/* overlay */
+
+.overlay-hero {
+  width: 100%;
+  min-height: 650px;
+
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.overlay-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.overlay-content {
+  position: relative;
+  z-index: 2;
+
+  color: white;
+  max-width: 400px;
+  margin-left: 10%;
+}
+.top-text {
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 /* MEDIA QUARIES */
 @media (max-width: 1440px) {
   .container {
