@@ -1,0 +1,15 @@
+.compare {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.compare h2 {
+  font-size: 40px;
+}
+
+td {
+  font-weight: bold;
+  font-size: 14px;
+}
