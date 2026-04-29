@@ -25,8 +25,8 @@ function CompareTable() {
 
           <tr>
             <td>UNLIMITED PHOTO UPLOAD</td>
-            <td></td>
-            <td></td>
+            <td>&#x2714;</td>
+            <td>&#x2714;</td>
             <td>&#x2714;</td>
           </tr>
           <tr>

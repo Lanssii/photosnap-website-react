@@ -7,9 +7,27 @@
 
 .compare h2 {
   font-size: 40px;
+  letter-spacing: 4px;
 }
 
 td {
   font-weight: bold;
   font-size: 14px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  max-width: 900px;
+  text-align: left;
+}
+
+th,
+td {
+  border-bottom: 1px solid #dfdfdf;
+  padding: 22px 62px;
+}
+
+thead tr {
+  border-bottom: 2px solid #000000;
 }
