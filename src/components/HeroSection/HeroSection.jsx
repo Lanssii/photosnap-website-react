@@ -3,7 +3,11 @@ import "./HeroSection.css";
 function HeroSection(props) {
   return (
     <>
-      <section className={`intro-section ${props.reverse ? "reverse" : ""}`}>
+      <section
+        className={`intro-section ${props.reverse ? "reverse" : ""}${
+          props.size === "small" ? "small" : ""
+        }`}
+      >
         {props.overlay ? (
           <div
             className="overlay-hero"

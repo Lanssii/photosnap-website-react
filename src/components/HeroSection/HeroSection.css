@@ -3,6 +3,9 @@
   width: 100%;
   min-height: 650px;
 }
+.intro-section.small {
+  min-height: 400px;
+}
 .intro-section.reverse {
   flex-direction: row-reverse;
 }
@@ -74,7 +77,6 @@
 
 .overlay-hero {
   width: 100%;
-  min-height: 650px;
 
   background-size: cover;
   background-position: center;

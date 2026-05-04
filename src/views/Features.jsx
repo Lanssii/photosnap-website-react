@@ -2,6 +2,8 @@ import HeroSection from "../components/HeroSection/HeroSection.jsx";
 import InfoSection from "../components/InfoSection/InfoSection.jsx";
 import featuresImage from "../assets/features-intro.png";
 
+import HeroSmall from "../assets/hero-small-img.jpg";
+
 function Features() {
   return (
     <main>
@@ -13,6 +15,14 @@ function Features() {
       />
       <InfoSection />
       <InfoSection />
+
+      <HeroSection
+        overlay={true}
+        storiesImage={HeroSmall}
+        title="WE'RE IN BETA.GET YOUR INVITE TODAY!"
+        linkText="GET AN INVITE"
+        size="small"
+      />
     </main>
   );
 }
