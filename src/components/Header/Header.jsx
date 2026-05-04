@@ -27,7 +27,9 @@ function Header(props) {
             </ul>
           </nav>
 
-          <button className="invite-button">{props.inviteBtn}</button>
+          <a href="/pricing" className="invite-button">
+            {props.inviteBtn}
+          </a>
         </div>
       </header>
     </>

@@ -9,7 +9,7 @@ function StoryCard({ image, title, author, linkText }) {
           <p>{author}</p>
           <hr />
           <div className="invite-way">
-            <a href="/invite" className="read-link">
+            <a href="/stories" className="read-link">
               {linkText}
             </a>
             <div className="arrow"></div>

@@ -21,7 +21,7 @@ function HeroSection(props) {
               <p>{props.para}</p>
 
               <div className="invite-way">
-                <a href="/invite">{props.linkText}</a>
+                <a href="/stories">{props.linkText}</a>
                 <div className="arrow"></div>
               </div>
             </div>
@@ -40,7 +40,7 @@ function HeroSection(props) {
                 <p>{props.para}</p>
                 <div className="invite-way">
                   <a
-                    href="/invite"
+                    href="/stories"
                     className="invite-link"
                     style={{ color: props.linkColor }}
                   >
