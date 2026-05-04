@@ -61,11 +61,15 @@
   height: 24px;
   left: 4px;
   top: 4px;
-  background: #000000;
+  background-color: #000000;
   border-radius: 50%;
   transition: 0.3s;
 }
 
 .switch input:checked + .slider::before {
   transform: translateX(30px);
+  background-color: #ffffff;
+}
+.switch input:checked + .slider {
+  background-color: #000000;
 }
