@@ -26,6 +26,23 @@
   font-weight: bold;
   font-size: 40px;
   margin: 5px;
+
+  transition: all 0.35s ease;
+}
+
+.price.animate {
+  animation: pop 0.3s ease;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0.4;
+    transform: scale(0.9) translateY(5px);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
 }
 
 .pricing-card p {

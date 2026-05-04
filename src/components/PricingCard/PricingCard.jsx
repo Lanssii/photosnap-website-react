@@ -7,7 +7,9 @@ function PricingCard({ title, price, desc, isActive }) {
       <p>{desc}</p>
 
       <div className="price-offer">
-        <h2 className="price">${price}.00</h2>
+        <h2 key={price} className="price animate">
+          ${price}.00
+        </h2>
         <span>per month</span>
       </div>
 
